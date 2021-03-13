@@ -28,7 +28,7 @@ const project = [
         project: project3,
         link: 'https://next-js-coutries-api-4sp8yqrlr.vercel.app/',
         target: '_blank',
-        caption: `project - 02 : NEXT-JS CONTRIES API, website ini di bangun dengan teknologi framework dari next-js, dan dengan memanfaatkan sebuah public api dari contries api. yang bertujuan untuk memudahkan pengunjung website dalam mencari informasi terkait dengan sebuah ngara tersebut.`,
+        caption: `project - 03 : NEXT-JS CONTRIES API, website ini di bangun dengan teknologi framework dari next-js, dan dengan memanfaatkan sebuah public api dari contries api. yang bertujuan untuk memudahkan pengunjung website dalam mencari informasi terkait dengan sebuah ngara tersebut.`,
         note: ``
     },
     {
@@ -37,7 +37,7 @@ const project = [
         project: project4,
         link: 'https://next-project-omdb-api.vercel.app/',
         target: '_blank',
-        caption: `project - 02 : NEXT-JS OMDB API, website ini di bangun dengan teknologi framework dari next-js, dan dengan memanfaatkan sebuah public api dari omdb api. yang bertujuan untuk memudahkan pengunjung website dalam mencari informasi terkait dengan sebuah film tersebut.`,
+        caption: `project - 04 : NEXT-JS OMDB API, website ini di bangun dengan teknologi framework dari next-js, dan dengan memanfaatkan sebuah public api dari omdb api. yang bertujuan untuk memudahkan pengunjung website dalam mencari informasi terkait dengan sebuah film tersebut.`,
         note: ``
     }
 ];
