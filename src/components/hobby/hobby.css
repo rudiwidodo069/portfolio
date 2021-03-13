@@ -5,6 +5,7 @@
 
 .box-col {
   width: 90%;
+  padding: 10px;
 }
 
 .box-col h3 {
@@ -29,6 +30,7 @@
   width: 80px;
   height: 80px;
   border-radius: 14px;
+  margin-top: 20px;
   transform: rotate(45deg);
 }
 

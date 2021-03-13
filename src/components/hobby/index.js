@@ -10,7 +10,7 @@ export default function Hobby() {
                     </div>
                     <div className="row">
                         <div className="col-md d-flex justify-content-center">
-                            <div className="box-col bg-white p-5 d-flex align-items-center flex-column rounded">
+                            <div className="box-col bg-white d-flex align-items-center flex-column rounded">
                                 <div className="box-icon bg-primary d-flex justify-content-center align-items-center">
                                     <i className="bi bi-music-note-beamed fs-1 fw-bold text-white"></i>
                                 </div>
@@ -23,7 +23,7 @@ export default function Hobby() {
                             </div>
                         </div>
                         <div className="col-md p-2 d-flex justify-content-center">
-                            <div className="box-col bg-white p-5 d-flex align-items-center flex-column rounded">
+                            <div className="box-col bg-white d-flex align-items-center flex-column rounded">
                                 <div className="box-icon bg-primary d-flex justify-content-center align-items-center">
                                     <i className="bi bi-controller fs-1 fw-bold text-white"></i>
                                 </div>
@@ -36,7 +36,7 @@ export default function Hobby() {
                             </div>
                         </div>
                         <div className="col-md p-2 d-flex justify-content-center">
-                            <div className="box-col bg-white p-5 d-flex align-items-center flex-column rounded">
+                            <div className="box-col bg-white d-flex align-items-center flex-column rounded">
                                 <div className="box-icon bg-primary d-flex justify-content-center align-items-center">
                                     <i className="bi bi-camera-fill fs-1 fw-bold text-white"></i>
                                 </div>
