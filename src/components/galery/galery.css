@@ -1,0 +1,148 @@
+.box-galery {
+  width: 100%;
+}
+
+.title {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.box-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.img {
+  cursor: pointer;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.img:nth-child(2) {
+  height: 100%;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.box-images .img:nth-child(1) {
+  grid-column: 1 / span 2;
+}
+
+.box-images .img:nth-child(2) {
+  grid-column: 3 / span 2;
+  grid-row: 1 / sapn 2;
+}
+
+.box-images .img:nth-child(5) {
+  grid-column: 1 / span 4;
+}
+
+.box-images .img:nth-child(6) {
+  grid-column: 1 / span 2;
+}
+
+.box-images .img:nth-child(7) {
+  grid-column: 3 / span 2;
+}
+
+.box-images .img:nth-child(8) {
+  grid-column: 1 / span 4;
+}
+
+.caption {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  bottom: 130px;
+  background: rgba(0, 0, 0, 0.7);
+  height: 130px;
+  line-height: 130px;
+  display: none;
+}
+
+.img:hover .caption {
+  display: block;
+}
+
+/* boximages */
+.detail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+}
+
+.detail-box-img {
+  width: 70%;
+  height: 500px;
+  background: white;
+  position: relative;
+}
+
+.detail-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* responsive */
+
+@media (max-width: 575.98px) {
+  .img {
+    height: 300px;
+  }
+  .img:hover .caption {
+    display: none;
+  }
+  .box-images .img:nth-child(1) {
+    grid-row: 1 / span 2;
+  }
+  .box-images .img:nth-child(3) {
+    grid-column: 1 / span 4;
+  }
+  .box-images .img:nth-child(4) {
+    grid-column: 1 / span 2;
+    border: 1px solid black;
+  }
+  .box-images .img:nth-child(6) {
+    grid-column: 1 / span 4;
+  }
+  .box-images .img:nth-child(7) {
+    grid-row: 4;
+    grid-column: 3 / span 2;
+  }
+  .detail-box-img {
+    width: 90%;
+    height: 60%;
+    background: transparent;
+  }
+  .detail-image {
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 991.98px) {
+}

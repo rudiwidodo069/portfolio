@@ -1,0 +1,73 @@
+.jumbotron {
+  height: 100vh;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.jumb-left,
+.jumb-right {
+  z-index: 1;
+}
+
+.jumb-left h1 {
+  font-size: 2.5rem;
+}
+.jumb-left h3 {
+  font-size: 2.2rem;
+}
+
+.box-profile {
+  width: 400px;
+  height: 400px;
+}
+
+.icons {
+  list-style: none;
+}
+
+.icon-instagram {
+  color: rgb(247, 10, 140);
+}
+
+.icon-facebook {
+  color: rgb(0, 81, 255);
+}
+
+.icon-github {
+  color: rgb(22, 20, 20);
+}
+
+.icon-whatsapp {
+  color: rgb(0, 245, 143);
+}
+
+/* responsive */
+
+@media (max-width: 575.98px) {
+  .box-profile {
+    width: 200px;
+    height: 200px;
+  }
+  .jumb-left h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .jumb-left h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .box-profile {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .box-profile {
+    width: 350px;
+    height: 350px;
+  }
+}

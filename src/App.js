@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import './bootstrap/mian.scss';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import About from './components/about';
+import Galery from './components/galery';
+import Hobby from './components/hobby';
+import Jumbotron from './components/jumbotron';
+import Navbar from './components/navbar';
+import Project from './components/project';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Jumbotron />
+      <About />
+      <Hobby />
+      <Galery />
+      <Project />
     </div>
   );
 }
