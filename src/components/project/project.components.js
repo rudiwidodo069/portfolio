@@ -2,6 +2,7 @@ import project1 from '../../assets/images/project-1.png';
 import project2 from '../../assets/images/project-2.png';
 import project3 from '../../assets/images/project-3.png';
 import project4 from '../../assets/images/project-4.png';
+import project5 from '../../assests/images/project-5.png';
 
 const project = [
     {
@@ -39,6 +40,15 @@ const project = [
         target: '_blank',
         caption: `project - 04 : NEXT-JS OMDB API, website ini di bangun dengan teknologi framework dari next-js, dan dengan memanfaatkan sebuah public api dari omdb api. yang bertujuan untuk memudahkan pengunjung website dalam mencari informasi terkait dengan sebuah film tersebut.`,
         note: ``
+    },
+    {
+        id: 5,
+        title: 'project - 05',
+        project: project5,
+        link: 'https://react-covid-live-tracker.netlify.app/',
+        target: '_blank',
+        caption: 'project - 05 : REACT-COVID, website ini dibangun dengan menggunakan library react.js dan framework bootestrap. website ini ditujukan untuk mengetahui perkembangan dari coronavirus saat ini',
+        note: ''
     }
 ];
 
