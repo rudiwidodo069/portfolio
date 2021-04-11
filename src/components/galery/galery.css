@@ -122,7 +122,6 @@
   }
   .box-images .img:nth-child(4) {
     grid-column: 1 / span 2;
-    border: 1px solid black;
   }
   .box-images .img:nth-child(6) {
     grid-column: 1 / span 4;
